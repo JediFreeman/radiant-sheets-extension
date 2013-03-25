@@ -8,6 +8,8 @@ en:
   new_stylesheet: New Stylesheet
   path: Path
   sheets: Sheets
+  scripts: Scripts
+  styles: Styles
   upload: Upload
   stylesheet_page: Stylesheet
   javascript_page: Javascript

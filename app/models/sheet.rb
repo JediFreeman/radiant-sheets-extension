@@ -101,6 +101,10 @@ module Sheet
       clean_path(path + '/' + child.slug + child.cache_marker)
     end
     
+    def child_url(child)
+      child_path(child)
+    end
+    
     def cache_marker
       Radiant::Config['sheets.use_cache_param?'] ? "?#{digest}" : ''
     end

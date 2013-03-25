@@ -1,4 +1,5 @@
-%h1= model.new_record? ? t('new_javascript') : t('edit_javascript')
+- @page_title = t('new_javascript') + ' - ' + default_page_title
+%h1= (model.new_record? ? t('new_javascript') : t('edit_javascript') )
 - form_for [:admin, model], :url => (model.new_record? ? admin_scripts_url : admin_script_url(model)) do |f|
   %p.title
     = label :sheet_page, :slug, 'Slug'

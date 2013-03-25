@@ -9,6 +9,8 @@ nl:
   path: Pad
   sheets: Sheets
   upload: Uploaden
+  scripts: Scripts
+  styles: Styles
   stylesheet_page: Stylesheet
   javascript_page: Javascript
   sheets:
